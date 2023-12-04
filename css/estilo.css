@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+.pai {
+	background-color: green;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 5vh;
+}
+a {
+	margin-right: 5vh;
+	color: #ffffff;
+}
+.pai2 {
+	display: flex;
+	padding: 3vh;	
+}
+.grup {
+	display: flex;
+}
+.filhoMateria {
+	border: 3px solid #000;
+	border-radius: 10px;
+}
+.pai3 {
+	display: flex;
+	justify-content: space-around;
+	padding: 3vh;
+	align-items: center;
+}
+
+img {
+	width: 400px;
+	height: auto;
+}
+footer {
+	background-color: green;
+	display: flex;
+	justify-content: center;
+	padding: 3vh;
+}
+.collum {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1vh;
+}
+
+@media (max-width: 760px) {
+	.pai {
+		justify-content: center;
+	
+	}
+	.pai2{
+     flex-wrap: wrap;
+	}
+	.pai3{
+		flex-wrap: wrap;
+	}
+	.geralQuadrinho{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.collum {
+		flex-direction: column;
+	}
+	.hq {
+		width: 100%;
+		height: auto;
+	}
+
+}
